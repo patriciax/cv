@@ -1,0 +1,72 @@
+.pacv-nav {
+    display: inline-flex;
+
+    list-style: none;
+}
+
+.pacv-nav li {
+    margin-left: 30px;
+}
+header {
+    text-align: center;
+}
+
+.pacv-nav  a {
+    color: #fff;
+}
+.pacv-nav a:hover {
+    color: #8b8b8b;
+}
+.wrap .about-desc .bold-text {
+    z-index: -1;
+}
+.pacv-check a {
+    background: white;
+    color: #111732;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+a {
+    color: #ffffff;
+}
+.wrap .about-desc .bold-text {
+    position: absolute;
+    top: -37px;
+}
+.wrap .about-desc .bold-text {
+    font-size: 7em;
+}
+
+.pacv-check a:hover {
+    background: #00BCD4;
+    color: #ffffff;
+}
+.ftco-footer-social li a:hover {
+
+    color: #00BCD4;
+}
+.block-3 .image {
+
+    background-position: top;
+}
+.block-3 .image .icon {
+    background: #00BCD4;
+}
+
+.ver{
+    background: white;
+    color: #111732;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.ftco-footer {
+    font-size: 16px;
+    background: #111732;
+    padding: 8em 0;
+    border-top: 1px solid #8080802e;
+}
+body .KW_progressBar {
+    background-color: #00BCD4;
+}

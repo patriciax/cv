@@ -1,583 +1,428 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yively Alvarez - Frontend</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
 
-<html lang="en" class="no-js">
-<!-- BEGIN HEAD -->
-<head>
-    <meta charset="utf-8"/>
-    <title>Patriciaxyz-Frontend</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <meta content="" name="description"/>
-    <meta content="" name="author"/>
-    <!-- GLOBAL MANDATORY STYLES -->
-    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <!-- PAGE LEVEL PLUGIN STYLES -->
-    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- THEME STYLES -->
-    <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/aos.css">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico"/>
-</head>
-<!-- END HEAD -->
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-<!-- BODY -->
-<body id="body" data-spy="scroll" data-target=".header">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    <!--========== HEADER ==========-->
-    <header class="header navbar-fixed-top">
-        <!-- Navbar -->
-        <nav class="navbar" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="menu-container js_nav-item">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="toggle-icon"></span>
-                    </button>
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
 
-                    <!-- Logo -->
-                        <!-- <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
-                            </a>
-                        </div> -->
-                        <!-- End Logo -->
-                    </div>
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar">
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
-
-        <!--========== SLIDER ==========-->
-        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/img.jpg" style="    background: #000000b0;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="promo-block-divider">
-                            <h1 class="promo-block-title">Patricia<br/> Alvarez</h1>
-                            <p class="promo-block-text">Web Designer &amp; Front-end Developer</p>
-                        </div>
-                        <!-- <ul class="list-inline">
-                            <li><a href="https://twitter.com/keenthemes" class="social-icons"><i class="icon-social-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/keenthemes" class="social-icons"><i class="icon-social-twitter"></i></a></li>
-                            <li><a href="https://dribbble.com/keenthemes" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
-                            <li><a href="https://www.behance.net/keenthemes" class="social-icons"><i class="icon-social-behance"></i></a></li>
-                            <li><a href="https://www.behance.net/keenthemes" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
-                        </ul> -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!--========== SLIDER ==========-->
-
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- About -->
-        <div id="about">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Intro</h2>
-                            <p>What I am all about.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <div class="margin-b-60">
-                            <p style="    font-size: 17px;
-                            color: #5f5f5f;">
-                        Hi, I'm Yively Alvarez, the main area of ​​my experience is the frontend development, the design orientation, and always taking into account and applying the concepts of UI / UX, also taking full advantage of design tools and the creation of accessories custom and simple coding designs</p>
-                    </div>
-
-                    <!-- Progress Box -->
-                    
-                    <div class="progress-box">
-                        <h5>HTML5 / Css3 <span class="color-heading pull-right">96%</span></h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-color-base" role="progressbar" data-width="96"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="progress-box">
-                        <h5>JavaSript <span class="color-heading pull-right">52%</span></h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-color-base" role="progressbar" data-width="52"></div>
-                        </div>
-                    </div>
-                    <div class="progress-box">
-                        <h5>Photoshop <span class="color-heading pull-right">77%</span></h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-color-base" role="progressbar" data-width="77"></div>
-                        </div>
-                    </div>
-                    <div class="progress-box">
-                        <h5>PHP <span class="color-heading pull-right">40%</span></h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-color-base" role="progressbar" data-width="30"></div>
-                        </div>
-                    </div>
-                    <div class="progress-box">
-                        <h5>Wordpress  <span class="color-heading pull-right">80%</span></h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
-                        </div>
-                    </div>
-                    <!-- End Progress Box -->
-                </div>
-            </div>
-            <!--// end row -->
-        </div>
+      </div>
     </div>
-    <!-- End About -->
-
-    <!-- Experience -->
-    <div id="experience">
-        <div class="bg-color-sky-light" data-auto-height="true">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Experience</h2>
-                            
-                        </div>
-
-
-                        
-                    </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <div class="row row-space-2 margin-b-4">
-                            <div class="col-md-4 md-margin-b-4">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon icon-chemistry"></i>
-                                    </div>
-                                    <div class="service-info">
-                                        <h3>Wordpress</h3>
-                                        <p class="margin-b-5">content management system or CMS, blogs, portfolios, you put the limit.</p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>    
-                                </div>
-                            </div>
-                            
-                            <a href="img/cvpatricia.pdf"  target="_blank">
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                        <div class="service-element">
-                                            <i class="service-icon color-white icon-screen-tablet"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3 class="color-white">Download CV</h3>
-                                            <p>see more</p>
-                                            <p class="color-white margin-b-5"> </p>
-                                        </div>
-                                        <!-- <a href="#" class="content-wrapper-link"></a>     -->
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="col-md-4">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon icon-badge"></i>
-                                    </div>
-                                    <div class="service-info">
-                                        <h3>Front-end</h3>
-                                        <p class="margin-b-5">
-                                        They are all web design and development technologies that run in the browser and are responsible for interactivity with users</p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <!--// end row -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
+    <div class="page">
+  
+    <div id="pacv-page">
+      <header>
+        <div class="container">
+       
+              <ul class="pacv-nav">
+              <!-- <li><a href="services.html"><span>Servicios</span></a></li> -->
+                <!-- <li><a  href="images/cvpatricia.pdf"  target="_blank"><span>Resume</span></a></li> -->
+                <li><a href="#portafolio"><span>Portafolio</span></a></li>
+               <li><a href=""> <div class="pacv-navbar-brand">
+                <a class="pacv-logo" href="index.html"><span class="logo-img" style="background-image: url(images/person_1.jpg);"></span></a>
+              </div></a></li>
+           
+                
+                <!-- <li><a href="blog.html"><span><small>05</small>Blog</span></a></li> -->
+                <li><a href="#contacto"><span>Contacto</span></a></li>
+              </ul>
+           
+          
         </div>
-    </div>
-    <!-- End Experience -->
-
-    <!-- Work -->
-    <div id="work">
-        <div class="container content-lg">
-            <div class="row">
-                <div class="col-sm-3 sm-margin-b-30">
-                    <div class="text-right sm-text-left">
-                        <h2 class="margin-b-0">Works</h2>
-                        <p>I build the real value.</p>
-                    </div>
-                </div>
-                <div class="col-sm-8 col-sm-offset-1">
-                    <!-- Masonry Grid -->
-                    <div class="masonry-grid row row-space-2">
-                        <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                            <!-- Work -->
-                            <a href="https://astivik.com/?lang=en" target="_blank">
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/astivik.png" alt="Portfolio Image">
-                                    </div>
-                                    
-                                </div>
-                            </a>
-                            <!-- End Work -->
-                            
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/INDIANA-FISHERY.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <img class="full-width img-responsive" src="img/INDIANA-FISHERY.jpg" alt="Portfolio Image">
-                                                    
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> Patricia</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Yively alvarez</p>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <a href="https://slicegroup.github.io/student-w/" target="_blank">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/STUDEN-2.png" alt="Portfolio Image">
-                                    </div>
-                                </a>
-                                    <!-- <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <img class="full-width img-responsive" src="img/STUDEN-2.png" alt="Portfolio Image">
-                                                     
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> Patricia</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Yively alvarez</p>
-                                                      
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                                <!-- Work -->
-                                <a href="https://nuevodia.com.ve/" target="_blank">
-                                    <div class="work work-popup-trigger">
-                                        <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/3.png" alt="Portfolio Image">
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/panda.png" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <img class="full-width img-responsive" src="img/panda.png" alt="Portfolio Image">
-                                                        
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> Patricia</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Yively alvarez</p>
-                                                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/INDIANA-FISHERY.jpg" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <img class="full-width img-responsive" src="img/INDIANA-FISHERY.jpg" alt="Portfolio Image">
-                                                        
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> Patricia</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Yively alvarez</p>
-                                                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <a href="https://corporacioncego.com" target="_blank">
-                                    <div class="work work-popup-trigger">
-                                        <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/cego.png" alt="Portfolio Image">
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- End Work -->
-                                
-                            </div>
-                            
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <a href="https://new.anditrip.com/" target="_blank">
-                                    <div class="work work-popup-trigger">
-                                        <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/proyecto3-anditrip.jpg" alt="Portfolio Image">
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- End Work -->
-                                <!-- Work -->
-                                <a href="https://www.cuandoteatreves.com/" target="_blank">
-                                    <div class="work work-popup-trigger">
-                                        <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/proyecto2-Cuando te atreves.jpg" alt="Portfolio Image">
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/fresh.png" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <img class="full-width img-responsive" src="img/fresh.png" alt="Portfolio Image">
-                                                        
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> Patricia</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Yively alvarez</p>
-                                                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                                <!-- Work -->
-                                <a href="https://betfitness.com/?lang=en" target="_blank">
-                                    <div class="work work-popup-trigger">
-                                        <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/proyecto1.png" alt="Portfolio Image">
-                                        </div>
-                                    </a>                                 
-                                </div>
-                                <!-- End Work -->                           
-                            </div>
-                        </div>
-                        <!-- End Masonry Grid -->
-                    </div>
-                </div>
-                <!--// end row -->
+      </header>
+    
+      <section class="home-slider owl-carousel js-fullheight">
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">Hola! Soy</a></p>
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Yively Alvarez</h1>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- End Work -->
+
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">Soy de Venezuela</a></p>
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">  Desarrolador Front-end </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END slider -->
+
+      <section class="ftco-section about-section">
+        <div class="container">
+          <div class="row d-flex" data-scrollax-parent="true">
         
-        <!-- Contact -->
-        <div id="contact">
-            <div class="">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0 oro">Contacts</h2>
-                                <p>Hire me.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Location</h5>
-                                    <a href="#">Venezuela- falcon</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Phone</h5>
-                                    <a href="#">+58 414 6418214</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <h5>Email</h5>
-                                    <a href="mailto:#">yively.pa@gmail.com</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <h5>Web</h5>
-                                    <a href="#">yively.xyz</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
+            <div class="col-md-6 wrap ftco-animate">
+              <div class="about-desc">
+                <h1 class="bold-text">Sobre mi</h1>
+                <div class="p-5">
+                  <h2 class="mb-5">Hola! Soy Yively Alvarez</h2>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
+                  <p class="pacv-check"><a  href="images/cvyively.pdf"  target="_blank">Checkout my resume</a></p>
+                  <ul class="ftco-footer-social list-unstyled mt-4">
+                    <li><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="icon-instagram"></span></a></li>
+                  </ul>
+                  <h5>Contactame y trabajemos juntos!</h5>
+                  <p>Email: <a href="mailto:#">yively.pa@gmail.com</a></p>
+                  <p>Phone: <a href="#">+584146418214</a></p>
                 </div>
+              </div>
             </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4 author-img" style="background-image: url(images/author-1.jpg);" data-scrollax=" properties: { translateY: '-70%'}"></div>
+
+            
+           
+          </div>
         </div>
-        <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
+      </section>
+<!-- 
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+         
+              <h2>Servicios del sitio web</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-layers"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Diseño Web</h3>
+                <p>Con un ojo impecable para los detalles, comprometida a proporcionar diseños de sitios web que no solo se vean geniales, sino que también sean fáciles de usar y funcionales.</p>
+                </div>
+              </div>      
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-gears"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">WordPress</h3>
+                  <h3 class="heading">E-commerce Website</h3>
+                  <p>¿Busca vender productos físicos o digitales en línea? Ya sea que solo esté instalando o sea una tienda ya establecida que busca un rediseño, podemos crear un sitio adecuado para usted.</p>
 
-        <!--========== FOOTER ==========-->
-        <!-- <footer class="footer">
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo">
-                    </div>
-                    <div class="col-xs-6 text-right sm-text-left">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/aircv/">Aircv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                </div>
+              </div>      
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-code"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Desarrollo web Diseño web adaptable</h3>
+                  <p>Utilizamos los últimos estándares de desarrollo y tecnologías web para mantener las cosas a la vanguardia, asegurando que su nuevo sitio web esté construido sobre una base estable y preparada para el futuro.</p>
+           
+                </div>
+              </div>    
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="ftco-section" id="portafolio">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portafolio</span>
+              <h2>Chek mis trabajos</h2>
+            </div>
+          </div>
+          <div class="row no-gutters">
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="http://rubbexshop.com/" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Pagina Web</h4>
+              <h2 class="heading"><a href="http://rubbexshop.com/" target="_blank">Rubbex Shop</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="http://rubbexshop.com/" target="_blank">Ver proyecto</a></p>
+            </div>
+          </div>
+
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="https://anditrip.com" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-4.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+   
+            <div class="text order-1">
+              <h4 class="subheading">Pagina Web</h4>
+              <h2 class="heading"><a href="https://anditrip.com" target="_blank">Anditrip</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="https://anditrip.com" target="_blank">Ver proyecto</a></p>
+            </div>
+          </div>
+
+       
+          
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="http://project3dshop.com" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-3.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Pagina Web</h4>
+              <h2 class="heading"><a href="http://project3dshop.com" target="_blank">Project Shop</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="http://project3dshop.com" target="_blank">Ver proyecto</a></p>
+            </div>
+          </div>
+
+          
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="https://patriciax.github.io/blog/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-2.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Pagina Web</h4>
+              <h2 class="heading"><a href="https://patriciax.github.io/blog/" target="_blank">Blog asdfgh</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="https://patriciax.github.io/blog/" target="_blank">Ver proyecto</a></p>
+            </div>
+          </div>
+
+
+          <div class="block-3 d-md-flex ftco-animate" target="_blank" data-scrollax-parent="true">
+            <a href="https://slicegroup.github.io/student-w/" target="_blank"  class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-5.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Pagina Web</h4>
+              <h2 class="heading"><a href="https://slicegroup.github.io/student-w/" target="_blank">Estudent Us</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="https://slicegroup.github.io/student-w/" target="_blank">Ver proyecto</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="http://astivik.com" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-6.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Branding</h4>
+              <h2 class="heading"><a href="http://astivik.com" target="_blank">Astivik</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="http://astivik.com" target="_blank">Ver proyecto </a></p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- <section class="ftco-section ftco-counter" id="section-counter">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portfolio</span>
+              <h2>I love to share my achievements</h2>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-start">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Clients</span>
+                  <strong class="number" data-number="420">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Project done</span>
+                  <strong class="number" data-number="890">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-end">
+            <div class="col-md-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Cups of coffee</span>
+                  <strong class="number" data-number="1000">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+
+      <!-- <div class="row mt-5 flex-column ftco-animate">
+          <div class="col-md-8">
+            <h2 class="mb-4">My Skills</h2>
+          </div>
+          <div class="col-md-6 animate-box">
+              <div class="progress-wrap">
+                <h4>Photoshop</h4>
+                <div class="progress">
+                   <div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                    <span>75%</span>
                     </div>
                 </div>
-                <!--// end row --
+              </div>
             </div>
-        </footer> -->
-        <style>
-         .navbar-fixed-top .navbar-collapse {
-            max-height: 100%;
-            display: flex!important;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-        }
-        .work .work-overlay {
-            position: relative;
-            cursor: pointer;
-            box-shadow: 0px 0px 9px #3f0e4094;
-            margin: 13px;
-        }
-        #contact{
-            background: #3f0e40!important;
-        }
-        #contact h5 ,a{
-            color: #fff;
-        }
-        .oro{
-            color: #fff!important;
-        }
-    </style>
-    <!--========== END FOOTER ==========-->
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h4>jQuery</h4>
+                <div class="progress">
+                   <div class="progress-bar color-1" role="progressbar" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    <span>60%</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box">
+              <div class="progress-wrap">
+                <h4>HTML5</h4>
+                <div class="progress">
+                   <div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
+                    aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                    <span>85%</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h4>CSS3</h4>
+                <div class="progress">
+                   <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                    <span>90%</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box">
+              <div class="progress-wrap">
+                <h4>WordPress</h4>
+                <div class="progress">
+                   <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span>70%</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h4>SEO</h4>
+                <div class="progress">
+                   <div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span>80%</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div> -->
+      
+      <footer class="ftco-footer ftco-bg-dark ftco-section" id="contacto">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-5 text-center">
+              <div class="ftco-footer-widget mb-5">
+                <ul class="ftco-footer-social list-unstyled">
+                  <!-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
+                </ul>
+              </div>
+              <div class="ftco-footer-widget">
+                <h2 class="mb-3">Trabajemos Juntos</h2>
+                <p class="h3 email"><a href="mailto:#">yively.pa@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
 
-    <!-- Back To Top -->
-    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+              <p>Venezuela- falcon -  +58 414 6418214</p>
+            </div>
+          </div>
+        </div>
+      </footer>
 
-    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-    <!-- CORE PLUGINS -->
-    <script src="vendor/jquery.min.js" type="text/javascript"></script>
-    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-    <!-- PAGE LEVEL PLUGINS -->
-    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
-    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-    <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-    <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+      </div>
 
-    <!-- PAGE LEVEL SCRIPTS -->
-    <script src="js/layout.min.js" type="text/javascript"></script>
-    <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
-    <script src="js/components/masonry.min.js" type="text/javascript"></script>
-    <script src="js/components/wow.min.js" type="text/javascript"></script>
+    </div>
 
-</body>
-<!-- END BODY -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
 </html>
